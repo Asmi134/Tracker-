@@ -1574,7 +1574,7 @@ def visualize_projects():
 # ---------- 9) Sidebar with Logo and Text ----------
 def display_sidebar():
     with st.sidebar:
-        logo_path = r'C:\Users\brajb\OneDrive\Desktop\coding development\industry 4.0\Jay jay  (2).png'
+        logo_path = r'Jay jay  (2).png'
         if os.path.exists(logo_path):
             logo = Image.open(logo_path)
             st.image(logo, width=250)
